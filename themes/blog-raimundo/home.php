@@ -57,7 +57,7 @@
             <div class="col-md-4">
               <div class="mb-3 section__tarjeta">
                 <div class="car-head "> 
-                  <?php get_template_part('_includes/logo', 'web'); ?>             
+                  <?php the_field('svg') ?>             
                 </div>
                 <div class="card-title">
                   <h4 class="seccion__titulo"><?php the_title(); ?></h4>
