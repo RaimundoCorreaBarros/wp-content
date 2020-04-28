@@ -17,8 +17,7 @@
       </div>
       <div class="main__texto container">
           <h1 class="main__texto__titulo"><?php the_title(); ?></h1>
-          <p>Mi nombre es Raimundo Correa, soy ingeniero en sonido de profesión y actualmente me encuentro terminando el curso de desarrollo sitios web en la academia Desafio Latam.</p>
-          <p>Siempre me gustó mucho todo lo relacionado con la tecnología y el desarrollo de sitios web pero mi pasión por el bajo eléctrico y la música me llevo a optar por estudiar Técnico e Ingeniería en Sonido, pero después de algunos años me atreví a estudiar y a reinventarme laboralmente.</p>
+            |<?php get_template_part('_includes/inicio', 'presentacion') ?>
           <a href="assets/download/cv-raimundo_correa.pdf" download="" class="btn btn-cv main__btn"><h4><i class="fas fa-cloud-download-alt fa-1.5x"></i> Descargar CV</h4></a>
       </div>
   
@@ -40,23 +39,15 @@
             );
           
             $get_arg = new WP_Query( $arg );
-
-
-          
+       
             while ( $get_arg->have_posts() ) {
               $get_arg->the_post();
 
             ?>
-
-            <?php 
-              $web = 'Desarrollador Web';
-              $sonido = 'Sonidista';
-              $bajo = 'Bajista';
-            ?>
           
             <div class="col-md-4">
               <div class="mb-3 section__tarjeta">
-                <div class="car-head "> 
+                <div class="car-head section__svg"> 
                   <?php the_field('svg') ?>             
                 </div>
                 <div class="card-title">

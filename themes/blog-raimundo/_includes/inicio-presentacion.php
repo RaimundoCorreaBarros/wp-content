@@ -1,0 +1,2 @@
+<p>Mi nombre es Raimundo Correa, soy ingeniero en sonido de profesión y actualmente me encuentro terminando el curso de desarrollo sitios web en la academia Desafio Latam.</p>
+<p>Siempre me gustó mucho todo lo relacionado con la tecnología y el desarrollo de sitios web pero mi pasión por el bajo eléctrico y la música me llevo a optar por estudiar Técnico e Ingeniería en Sonido, pero después de algunos años me atreví a estudiar y a reinventarme laboralmente.</p>
