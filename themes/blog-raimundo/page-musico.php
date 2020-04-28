@@ -25,7 +25,7 @@
 			
 			<!-- Tarjetas -->
 			<div class="col-12 col-sm-6 col-md-4 col-lg-3 pb-2">
-				<div class="card" data-toggle="modal" data-target="#<?php the_field('id'); ?>">
+				<div class="card musico__sombra" data-toggle="modal" data-target="#<?php the_field('id'); ?>">
 					<?php the_post_thumbnail('musica', array('class' => 'card-img-top galeria__video' )); ?>
 					
 					<div class="card-body">
