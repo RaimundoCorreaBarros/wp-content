@@ -5,7 +5,7 @@
 		<?php the_post(); ?>
 
         <section class="single container">
-		<div class="card" style="width: 18rem;">
+		<div class="card single__sombra" style="width: 18rem;">
 			<?php the_post_thumbnail('medium') ?>
             <div class="card-body">
                 <h5 class="card-title"><?php the_title() ?></h5>

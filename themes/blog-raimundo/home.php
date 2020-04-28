@@ -18,7 +18,8 @@
       <div class="main__texto container">
           <h1 class="main__texto__titulo"><?php the_title(); ?></h1>
             <?php get_template_part('_includes/inicio', 'presentacion') ?>
-          <a href="assets/download/cv-raimundo_correa.pdf" download="" class="btn btn-cv main__btn"><h4><i class="fas fa-cloud-download-alt fa-1.5x"></i> Descargar CV</h4></a>
+            <?php get_template_part('_includes/boton', 'descarga') ?>
+          
       </div>
   
     <?php } wp_reset_postdata();

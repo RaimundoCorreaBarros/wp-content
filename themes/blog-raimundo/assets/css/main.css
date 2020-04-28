@@ -10331,10 +10331,8 @@ h1, h2, h3, h4, h5, h6 {
 .navbar__logo {
   justify-content: center;
 }
-.navbar__logo svg {
-  fill: #ffffff;
+.navbar__logo img {
   height: 45px;
-  width: 155px;
 }
 
 main {
@@ -10565,6 +10563,10 @@ label {
 
 .single {
   padding: 4rem 0;
+}
+
+.single__sombra:hover {
+  box-shadow: 0px 0px 10px 0px #535c68;
 }
 
 /*# sourceMappingURL=main.css.map */
