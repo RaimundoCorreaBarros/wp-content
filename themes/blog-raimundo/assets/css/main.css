@@ -10329,10 +10329,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar__logo {
-  justify-content: center;
+  
+  
 }
 .navbar__logo img {
-  height: 45px;
+  height: 25px;
+  width: auto;
 }
 
 main {
