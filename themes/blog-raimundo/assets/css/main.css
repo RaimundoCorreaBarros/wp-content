@@ -10328,13 +10328,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
 }
 
-.navbar__logo {
-  
-  
-}
 .navbar__logo img {
-  height: 25px;
-  width: auto;
+  height: 45px !important;
 }
 
 main {

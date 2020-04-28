@@ -2,8 +2,7 @@
 
 <section class="musico container">
 	<div class="musico__texto container">
-		<h2>La música y el bajo electrico.</h2>
-		<p>A los 15 años, como muchos jovenes, aprendi a tocar un instrumento, en mi caso fue el bajo electrico y esto cambio mi vida. Se transformo en mi pasión, a tal punto que grabe algunos discos con mi primera banda y al igual que con mi profesión, la música me llevo a recorrer gran parte de Chile, Argentina, Mexico y Europa.</p>
+		<?php get_template_part('_includes/texto', 'musico') ?>
 	</div>
 
 	<div class="musico__videos container">

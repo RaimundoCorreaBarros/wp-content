@@ -17,9 +17,8 @@
       </div>
       <div class="main__texto container">
           <h1 class="main__texto__titulo"><?php the_title(); ?></h1>
-            <?php get_template_part('_includes/inicio', 'presentacion') ?>
-            <?php get_template_part('_includes/boton', 'descarga') ?>
-          
+            <?php get_template_part('_includes/texto', 'inicio') ?>
+            <?php get_template_part('_includes/boton', 'descarga') ?>          
       </div>
   
     <?php } wp_reset_postdata();
@@ -57,7 +56,7 @@
                 </div>
               </div>
             </div>
-          
+            
             <?php } wp_reset_postdata();
           ?>            
         </div>

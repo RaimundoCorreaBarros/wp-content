@@ -1,0 +1,3 @@
+<h2>Proyectos desarrollados</h2>
+<p>A principios del 2000 aprendi a crear paginas web de manera autodidacta, sin entender el por que hacias las cosas de una forma u otra, pero a medida que pasaban los años fui dejando esto de lado y me dedique en pleno a mi carrera de sonidista.</p>
+<p>El año 2019 impulsado por mi hermana es que finalmente me decidi y comenze este curso de desarrollador web. Mi constante gusto por aprender cosas nuevas me llevaron de manera exitosa a terminar este desafio (volver a estudiar) y buscar nuevas oportunidades laborales.</p>
