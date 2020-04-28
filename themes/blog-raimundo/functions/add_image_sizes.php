@@ -11,7 +11,8 @@ function dl_image_sizes( $sizes ) {
 
 	$add_sizes = array(
 		'trabajos'		=> __( 'Tamaño personalizado para trabajos web y sonido'),
-		'musica'		=> __( 'Tamaño personalizado para post de musica')
+		'musica'		=> __( 'Tamaño personalizado para post de musica'),
+		'habilidad'		=> __( 'Tamaño personalizado para las habilidades'),
 	);
 
 	return array_merge( $sizes, $add_sizes );
@@ -32,6 +33,7 @@ if ( function_exists( 'add_theme_support' ) ) {
 
 	add_image_size( 'trabajos', 370, 190, true );			// Personalización de tamaño web y sonido
 	add_image_size( 'musica', 320, 180, true ); 			// Personalización de tamaño musico
+	add_image_size( 'habilidad', 151, 133, true ); 			// Personalización de tamaño habilidades
 
 	add_filter( 'image_size_names_choose', 'dl_image_sizes' );
 

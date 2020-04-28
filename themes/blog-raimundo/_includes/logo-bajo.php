@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 519.08 738.66" height="80pt">
-                <defs><style></style></defs>
+<defs><style>.cls-1{fill:#204051;}</style></defs>
                 <title>Bajo</title>
                 <g id="Capa_2" data-name="Capa 2">
                     <g id="Capa_1-2" data-name="Capa 1">

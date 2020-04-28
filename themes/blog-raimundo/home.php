@@ -48,7 +48,7 @@
             <div class="col-md-4">
               <div class="mb-3 section__tarjeta">
                 <div class="car-head section__svg"> 
-                  <?php the_field('svg') ?>             
+                  <?php the_post_thumbnail('habilidad'); ?>            
                 </div>
                 <div class="card-title">
                   <h4 class="seccion__titulo"><?php the_title(); ?></h4>

@@ -10322,6 +10322,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
 }
 
+
 .navbar__color {
   font-family: "Roboto Mono", monospace;
   background-color: #3b6978 !important;
@@ -10330,6 +10331,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar__logo img {
   height: 45px !important;
+  color: #ffffff;
+}
+
+svg {
+  width: 40%;
+  fill: #ffffff;
 }
 
 main {
@@ -10433,10 +10440,12 @@ main p {
   height: 133px;
 }
 
-svg {
-  width: 40%;
-  fill: #2F779E;
+.section__svg img {
+  height: 133px;
+  width: 151px;
 }
+
+
 
 @media (max-width: 768px) {
   .section__tarjeta {

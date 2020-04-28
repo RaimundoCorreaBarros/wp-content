@@ -6,7 +6,7 @@
 
 
   <div class="sonido__texto">
-	<?php get_template_part('_include/texto', 'sonido') ?>
+  <?php get_template_part('_includes/texto', 'sonido') ?>
   </div>
 
 		<?php
