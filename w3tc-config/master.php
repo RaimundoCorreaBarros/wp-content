@@ -1,5 +1,5 @@
 <?php exit; ?>{
-    "version": "0.13.2",
+    "version": "0.13.3",
     "cluster.messagebus.debug": false,
     "cluster.messagebus.enabled": false,
     "cluster.messagebus.sns.region": "",
@@ -890,5 +890,9 @@
     "plugin.type": "",
     "fragmentcache": {
         "engine": ""
+    },
+    "pgcache.bad_behavior_path": "",
+    "newrelic": {
+        "monitoring_type": "apm"
     }
 }

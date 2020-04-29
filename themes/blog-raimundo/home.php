@@ -57,8 +57,7 @@
               </div>
             </div>
             
-            <?php } wp_reset_postdata();
-          ?>            
+            <?php } wp_reset_postdata(); ?>            
         </div>
         
       </div>
