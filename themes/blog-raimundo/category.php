@@ -17,8 +17,16 @@
 
 	<?php } else { ?>
 		<!-- Content -->
-		<p>No hay elementos</p>
+		<div class="container error404">
+        <h2>¡Ups! No hay elementos</h2>
+		<h2>en la categoria.</h2>
+        <div class="error404_svg">
+            <img src="assets/image/bajo2x.png" alt="">
+        </div>
+        <a href="<?php echo get_home_url()?>" class="btn btn-color">Volver al inicio</a>
+    </div>
+
 	<?php } wp_reset_query(); ?>
 
-	<?php get_sidebar() ?>
+
 <?php get_footer() ?>
