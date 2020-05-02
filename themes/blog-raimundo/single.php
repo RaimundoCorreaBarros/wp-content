@@ -28,10 +28,10 @@
                             </div>
 
                     <?php } elseif (has_category('web')) { ?>
-                        <a href="<?php is_field('web') ?>" target="_blank" class="btn btn-color">Ver Sitio</a>
+                        <a href="<?php the_field('web') ?>" target="_blank" class="btn btn-color">Ver Sitio</a>
                     
                     <?php } elseif (has_category('sin-categoria'))  { ?>
-                        <a href="<?php echo get_home_url()?>" class="btn btn-color">Volver al inicio</a>
+                        <a href="<?php echo get_home_url() ?>" class="btn btn-color">Volver al inicio</a>
                 
                     <?php } ?>
 
