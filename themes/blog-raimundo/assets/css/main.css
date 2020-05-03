@@ -10288,7 +10288,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-contacto {
-  padding: 0.5rem 2rem;
+  padding: 0.35rem 2rem;
   background-color: #3b6978;
   border: 0;
   color: #ffffff;
@@ -10322,20 +10322,17 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
 }
 
-
 .navbar__color {
   font-family: "Roboto Mono", monospace;
   background-color: #3b6978 !important;
   color: #ffffff;
 }
 
-.navbar__logo img {
-  height: 45px !important;
-  color: #ffffff !important;
+.navbar__logo {
+  justify-content: center;
 }
-
-svg {
-  width: 40%;
+.navbar__logo img {
+  height: 45px;
 }
 
 main {
@@ -10439,12 +10436,10 @@ main p {
   height: 133px;
 }
 
-.section__svg img {
-  height: 133px;
-  width: 151px;
+svg {
+  width: 40%;
+  fill: #2F779E;
 }
-
-
 
 @media (max-width: 768px) {
   .section__tarjeta {
@@ -10481,21 +10476,20 @@ footer {
 
 .contacto {
   padding: 4rem 0;
-  width: 400px;
+  width: 50%;
 }
 .contacto h2 {
   text-align: center;
   padding-bottom: 2rem;
 }
-
-input, textarea {
-  width: 350px;
-  border: 2px solid #3b6978;
-}
 @media (max-width: 768px) {
-  input, textarea {
+  .contacto {
     width: 80%;
   }
+}
+
+input, textarea {
+  border: 2px solid #3b6978;
 }
 
 label {
