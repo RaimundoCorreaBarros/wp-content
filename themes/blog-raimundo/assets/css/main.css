@@ -10478,14 +10478,14 @@ footer {
   padding: 4rem 0;
   width: 50%;
 }
-.contacto h2 {
-  text-align: center;
-  padding-bottom: 2rem;
-}
 @media (max-width: 768px) {
   .contacto {
     width: 80%;
   }
+}
+
+.contacto__texto {
+  padding-bottom: 2rem;
 }
 
 input, textarea {
